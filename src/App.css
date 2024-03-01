@@ -1,0 +1,33 @@
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'),  url("./assets/fonts//poppins/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Poppins-Medium';
+  font-style: normal;
+  font-weight: 500; /* Sesuaikan dengan bobot yang diinginkan, misalnya bold */
+  src: local('Poppins-Medium'), local('Poppins-Medium'), url('./assets/fonts/poppins/Poppins-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  font-style:normal;
+  font-weight:bold;/* Sesuaikan dengan bobot yang diinginkan, misalnya bold */
+  src: local('Poppins-SemiBold'), local('Poppins-SemiBold'), url('./assets/fonts/poppins/Poppins-SemiBold.ttf') format('truetype');
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+
+  width: 0px;
+  height: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+  margin-top: 10px;
+  background-color: #EA7C69;
+  border: 3px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
